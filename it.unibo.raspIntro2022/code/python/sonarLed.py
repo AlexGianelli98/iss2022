@@ -7,9 +7,11 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 TRIG = 23
 ECHO = 24
+LED = 17
 
 GPIO.setup(TRIG,GPIO.OUT)
 GPIO.setup(ECHO,GPIO.IN)
+GPIO.setup(LED,GPIO.OUT)
 
 GPIO.output(TRIG, False)   #TRIG parte LOW
 #print ('Waiting a few seconds for the sensor to settle')
@@ -33,6 +35,10 @@ while True:
    distance = round(distance, 1)
    #print ('Distance:',distance,'cm')
    print ( distance, flush=True ) 
+   if distance <= 5:
+      GPIO.output(LED,GPIO.HIGH)
+   else :
+      GPIO.output(LED,GPIO.LOW)
    time.sleep(0.25)
 
 
