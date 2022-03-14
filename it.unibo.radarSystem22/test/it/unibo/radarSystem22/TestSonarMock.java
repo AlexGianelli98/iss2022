@@ -30,8 +30,7 @@ public class TestSonarMock {
 		ISonar sonar = DeviceFactory.createSonar();
 		new SonarConsumerForTesting( sonar, delta ).start();  //consuma
 		sonar.activate();		
- 		while( sonar.isActive() ) { BasicUtils.delay(1000);} //to avoid premature exit
+ 		while(sonar.isActive()) { BasicUtils.delay(1000);} //to avoid premature exit
  	}
-	
  
 }
