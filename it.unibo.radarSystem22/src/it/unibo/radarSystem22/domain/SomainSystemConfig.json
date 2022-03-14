@@ -1,0 +1,8 @@
+{
+  "simulation"       : "true",
+  "DLIMIT"           : "15",
+  "testing"          : "false",
+  "testingDistance"  : "10" ,
+  "sonarDelay"       : "100",
+  "sonarDistanceMax" : "150"
+}
