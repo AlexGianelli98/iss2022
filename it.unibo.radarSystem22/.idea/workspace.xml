@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f759197-e314-40e4-8739-9688f8facff8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unibo/radarSystem22/domain/DeviceFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unibo/radarSystem22/domain/SomainSystemConfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unibo/radarSystem22/domain/concrete/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unibo/radarSystem22/domain/concrete/Distance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unibo/radarSystem22/domain/concrete/LedConcrete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unibo/radarSystem22/domain/concrete/RadarUsageMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unibo/radarSystem22/domain/concrete/SonarConcrete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unibo/radarSystem22/domain/interfaces/IDistance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unibo/radarSystem22/domain/interfaces/ILed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unibo/radarSystem22/domain/interfaces/IRadarDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unibo/radarSystem22/domain/interfaces/ISonar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unibo/radarSystem22/domain/interfaces/Interaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unibo/radarSystem22/domain/mock/LedMock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unibo/radarSystem22/domain/mock/SonarMock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unibo/radarSystem22/domain/models/LedModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unibo/radarSystem22/domain/models/SonarModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unibo/radarSystem22/domain/utils/BasicUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unibo/radarSystem22/domain/utils/ColorsOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unibo/radarSystem22/domain/utils/DomainSystemConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/it/unibo/radarSystem22/LedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/it/unibo/radarSystem22/SonarConsumerForTesting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/it/unibo/radarSystem22/TestSonarMock.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="26PoO3Nh7RrmqTKO5nwz3HiLtkC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Gradle.TestSystemAtSprint1">
+    <configuration name="TestSystemAtSprint1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;it.unibo.radarSystem22.sprint1.TestSystemAtSprint1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="gradlew" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/gradlew" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.TestSystemAtSprint1" />
+        <item itemvalue="Shell Script.gradlew" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f759197-e314-40e4-8739-9688f8facff8" name="Changes" comment="" />
+      <created>1647334553369</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647334553369</updated>
+      <workItem from="1647334556237" duration="1616000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

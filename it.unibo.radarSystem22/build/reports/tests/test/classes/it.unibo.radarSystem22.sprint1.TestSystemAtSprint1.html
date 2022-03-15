@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class it.unibo.radarSystem22.sprint1.TestSystemAtSprint1</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class it.unibo.radarSystem22.sprint1.TestSystemAtSprint1</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/it.unibo.radarSystem22.sprint1.html">it.unibo.radarSystem22.sprint1</a> &gt; TestSystemAtSprint1</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">8.398s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testFarDistance</td>
+<td class="success">3.057s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNearDistance</td>
+<td class="success">5.341s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>setUp
+		?[34mSonarMock | sonarSetUp curVal=90?[0m
+Model setMaxValue(500.0)
++++ getRange = 100000.0
++++ MY_LOCATION POI lat  =44.5151368 lon=11.3482484
++++ MY_LOCATION POI locXY=Point2D.Double[21261.0, 5054.0]
++++ getRotationAngle 0.0
+%%% CtrlDashSwingImpl
+?[33mBefore Controller creation |  curthread=Test worker n=7?[0m
+testDistance 10
+?[32mController | start with endFun=it.unibo.radarSystem22.sprint1.TestSystemAtSprint1$$Lambda$196/0x0000000800c5ac40@175b041f?[0m
+		?[34mSonarModel | activate?[0m
+		?[34mSonarModel | updateDistance 10?[0m
+?[33mController activated |  curthread=Thread-7 n=9?[0m
+?[32mController | d=10 i=1?[0m
+?[35mLedMock state=true?[0m
+		?[34mSonarModel | updateDistance 10?[0m
+		?[43mSonarModel | deactivate?[0m
+Controller | BYE 
+		?[34mRadarDisplay | getCurDistance=10?[0m
+		?[35mledState=true ledStateExpected=true radarDisplayedDistance=10?[0m
+		?[34mSonarModel | ENDS?[0m
+endtest
+setUp
+		?[34mcreateSonarMock?[0m
+		?[34mSonarModel | calling (specialized) sonarSetUp ?[0m
+		?[34mSonarMock | sonarSetUp curVal=90?[0m
+?[33mBefore Controller creation |  curthread=Test worker n=7?[0m
+testDistance 35
+?[32mController | start with endFun=it.unibo.radarSystem22.sprint1.TestSystemAtSprint1$$Lambda$196/0x0000000800c5ac40@4803d362?[0m
+		?[34mSonarModel | activate?[0m
+		?[34mSonarModel | updateDistance 35?[0m
+?[33mController activated |  curthread=Thread-9 n=9?[0m
+?[32mController | d=35 i=1?[0m
+?[35mLedMock state=true?[0m
+		?[34mSonarModel | updateDistance 35?[0m
+		?[43mSonarModel | deactivate?[0m
+Controller | BYE 
+		?[34mRadarDisplay | getCurDistance=35?[0m
+		?[35mledState=true ledStateExpected=false radarDisplayedDistance=35?[0m
+		?[34mSonarModel | ENDS?[0m
+endtest
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Warning: the fonts &quot;Times&quot; and &quot;Times&quot; are not available for the Java logical font &quot;Serif&quot;, which may have unexpected appearance or behavior. Re-enable the &quot;Times&quot; font to remove this warning.
+Warning: the fonts &quot;Times&quot; and &quot;Times&quot; are not available for the Java logical font &quot;Serif&quot;, which may have unexpected appearance or behavior. Re-enable the &quot;Times&quot; font to remove this warning.
+Warning: the fonts &quot;Times&quot; and &quot;Times&quot; are not available for the Java logical font &quot;Serif&quot;, which may have unexpected appearance or behavior. Re-enable the &quot;Times&quot; font to remove this warning.
+Exception in thread &quot;Thread-9&quot; java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at it.unibo.radarSystem22.sprint1.TestSystemAtSprint1.lambda$testTheDistance$0(TestSystemAtSprint1.java:59)
+	at it.unibo.radarSystem22.sprint1.Controller$1.run(Controller.java:60)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.7.1</a> at 15 mar 2022, 10:23:33</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+"DLIMIT"           : "70",
+"RadarGuiRemote"   : "true",
+"tracing"          : "false",
+"testing"          : "false"
+}

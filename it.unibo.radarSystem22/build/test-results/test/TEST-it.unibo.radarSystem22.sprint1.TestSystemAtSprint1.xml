@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="it.unibo.radarSystem22.sprint1.TestSystemAtSprint1" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-15T09:23:24" hostname="MacBook-Pro-di-Alex.local" time="8.398">
+  <properties/>
+  <testcase name="testNearDistance" classname="it.unibo.radarSystem22.sprint1.TestSystemAtSprint1" time="5.341"/>
+  <testcase name="testFarDistance" classname="it.unibo.radarSystem22.sprint1.TestSystemAtSprint1" time="3.057"/>
+  <system-out><![CDATA[setUp
+		?[34mSonarMock | sonarSetUp curVal=90?[0m
+Model setMaxValue(500.0)
++++ getRange = 100000.0
++++ MY_LOCATION POI lat  =44.5151368 lon=11.3482484
++++ MY_LOCATION POI locXY=Point2D.Double[21261.0, 5054.0]
++++ getRotationAngle 0.0
+%%% CtrlDashSwingImpl
+?[33mBefore Controller creation |  curthread=Test worker n=7?[0m
+testDistance 10
+?[32mController | start with endFun=it.unibo.radarSystem22.sprint1.TestSystemAtSprint1$$Lambda$196/0x0000000800c5ac40@175b041f?[0m
+		?[34mSonarModel | activate?[0m
+		?[34mSonarModel | updateDistance 10?[0m
+?[33mController activated |  curthread=Thread-7 n=9?[0m
+?[32mController | d=10 i=1?[0m
+?[35mLedMock state=true?[0m
+		?[34mSonarModel | updateDistance 10?[0m
+		?[43mSonarModel | deactivate?[0m
+Controller | BYE 
+		?[34mRadarDisplay | getCurDistance=10?[0m
+		?[35mledState=true ledStateExpected=true radarDisplayedDistance=10?[0m
+		?[34mSonarModel | ENDS?[0m
+endtest
+setUp
+		?[34mcreateSonarMock?[0m
+		?[34mSonarModel | calling (specialized) sonarSetUp ?[0m
+		?[34mSonarMock | sonarSetUp curVal=90?[0m
+?[33mBefore Controller creation |  curthread=Test worker n=7?[0m
+testDistance 35
+?[32mController | start with endFun=it.unibo.radarSystem22.sprint1.TestSystemAtSprint1$$Lambda$196/0x0000000800c5ac40@4803d362?[0m
+		?[34mSonarModel | activate?[0m
+		?[34mSonarModel | updateDistance 35?[0m
+?[33mController activated |  curthread=Thread-9 n=9?[0m
+?[32mController | d=35 i=1?[0m
+?[35mLedMock state=true?[0m
+		?[34mSonarModel | updateDistance 35?[0m
+		?[43mSonarModel | deactivate?[0m
+Controller | BYE 
+		?[34mRadarDisplay | getCurDistance=35?[0m
+		?[35mledState=true ledStateExpected=false radarDisplayedDistance=35?[0m
+		?[34mSonarModel | ENDS?[0m
+endtest
+]]></system-out>
+  <system-err><![CDATA[Warning: the fonts "Times" and "Times" are not available for the Java logical font "Serif", which may have unexpected appearance or behavior. Re-enable the "Times" font to remove this warning.
+Warning: the fonts "Times" and "Times" are not available for the Java logical font "Serif", which may have unexpected appearance or behavior. Re-enable the "Times" font to remove this warning.
+Warning: the fonts "Times" and "Times" are not available for the Java logical font "Serif", which may have unexpected appearance or behavior. Re-enable the "Times" font to remove this warning.
+Exception in thread "Thread-9" java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at it.unibo.radarSystem22.sprint1.TestSystemAtSprint1.lambda$testTheDistance$0(TestSystemAtSprint1.java:59)
+	at it.unibo.radarSystem22.sprint1.Controller$1.run(Controller.java:60)
+]]></system-err>
+</testsuite>
